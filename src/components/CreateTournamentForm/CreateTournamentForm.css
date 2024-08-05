@@ -1,0 +1,57 @@
+/* src/components/CreateTournamentForm/CreateTournamentForm.css */
+
+.create-tournament-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #151753; /* Синий фон */
+}
+
+.create-tournament-form {
+  background: #1e3a8a; /* Синий фон */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%;
+  color: white;
+}
+
+.create-tournament-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.create-tournament-form input,
+.create-tournament-form select {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  color: black; /* Черный цвет текста */
+}
+
+.radio-group {
+  display: flex;
+  justify-content: space-around;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.success-message {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}

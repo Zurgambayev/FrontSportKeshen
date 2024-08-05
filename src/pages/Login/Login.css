@@ -1,0 +1,49 @@
+/* src/pages/Login/Login.css */
+
+.login-container {
+    display: flex; /* Используем Flexbox для выравнивания */
+    justify-content: center; /* Центрируем содержимое по горизонтали */
+    align-items: center; /* Центрируем содержимое по вертикали */
+    min-height: 100vh; /* Минимальная высота 100% от высоты окна */
+    background-color: #151753; /* Синий фон */
+}
+
+.login-form {
+    background: rgba(255, 255, 255, 0.1); /* Полупрозрачный белый фон */
+    padding: 20px; /* Внутренний отступ 20px */
+    border-radius: 10px; /* Скругленные углы с радиусом 10px */
+    backdrop-filter: blur(10px); /* Эффект размытия фона */
+    text-align: center; /* Центрируем текст */
+    max-width: 400px; /* Максимальная ширина 400px */
+    width: 100%; /* Ширина 100% */
+    color: white; /* Белый цвет текста */
+}
+
+.login-form h2 {
+    margin-bottom: 20px; /* Нижний отступ 20px */
+}
+
+.login-form input {
+    width: 100%; /* Ширина 100% */
+    margin-bottom: 20px; /* Нижний отступ 20px */
+    padding: 10px; /* Внутренний отступ 10px */
+    border-radius: 10px; /* Скругленные углы с радиусом 10px */
+    border: 1px solid #ccc; /* Серая граница */
+    outline: none; /* Убираем обводку при фокусе */
+    color: black; /* Черный цвет текста */
+}
+
+.login-form button {
+    width: 100%; /* Ширина 100% */
+    padding: 10px; /* Внутренний отступ 10px */
+    border: none; /* Убираем границу */
+    border-radius: 10px; /* Скругленные углы с радиусом 10px */
+    background-color: #151753; /* Тёмный фон для кнопки */
+    color: white; /* Белый цвет текста */
+    font-size: 1rem; /* Размер шрифта 1rem */
+    cursor: pointer; /* Курсор в виде руки при наведении */
+}
+
+.login-form button:hover {
+    background-color: #2B6CB0; /* Более светлый синий фон при наведении */
+}

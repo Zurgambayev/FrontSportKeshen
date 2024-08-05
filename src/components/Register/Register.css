@@ -1,0 +1,49 @@
+/* src/pages/Register/Register.css */
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #151753; /* Синий фон */
+}
+
+.register-form {
+  background: rgba(255, 255, 255, 0.1); /* Полупрозрачный белый фон */
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px); /* Эффект размытия */
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  color: white;
+}
+
+.register-form h2 {
+  margin-bottom: 20px;
+}
+
+.register-form input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  color: black; /* Черный цвет текста */
+}
+
+.register-form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #151753; /* Тёмный фон для кнопки */
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.register-form button:hover {
+  background-color: #2B6CB0;
+}

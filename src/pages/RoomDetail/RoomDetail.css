@@ -1,0 +1,293 @@
+.era {
+    background-color: rgba(21, 23, 83, 1);
+    display: flex;
+    padding-bottom: 12px;
+    flex-direction: column;
+  }
+  
+  .era1 {
+    background-color: rgba(38, 63, 151, 1);
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    white-space: nowrap;
+    padding: 30px 31px 10px 80px;
+    border: 1px solid rgba(0, 0, 0, 1);
+  }
+  
+  .era2 {
+    padding: 15px 24px;
+    font: 25px Inter, sans-serif;
+    border: 3px solid rgba(255, 255, 255, 1);
+  }
+  
+  .era3 {
+    margin: auto 0;
+    font: 15px Inter, sans-serif;
+  }
+  
+  .era4 {
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: auto 0;
+    font: 15px Inter, sans-serif;
+  }
+  
+  .era5 {
+    align-self: start;
+    display: flex;
+    margin-top: 10px;
+    align-items: start;
+    gap: 12px;
+  }
+  
+  .era6 {
+    border-radius: 10px;
+    background-color: rgba(60, 124, 221, 1);
+    padding: 5px 22px;
+    font: 20px Inter, sans-serif;
+    border: 1px solid rgba(255, 255, 255, 1);
+  }
+  
+  .era7 {
+    flex-grow: 1;
+    width: fit-content;
+    padding: 6px 19px 0;
+    font: 25px Inter, sans-serif;
+    border: 1px solid rgba(243, 243, 243, 1);
+  }
+  
+  .era8 {
+    display: flex;
+    margin-top: 70px;
+    width: 100%;
+    flex-direction: column;
+    padding: 0 44px;
+  }
+  
+  .era9 {
+    align-self: center;
+    display: flex;
+    width: 100%;
+    max-width: 1155px;
+    gap: 20px;
+    font-size: 35px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+  }
+  
+  .era10 {
+    font-family: Inter, sans-serif;
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: auto 0;
+  }
+  
+  .era11 {
+    font-family: Inter, sans-serif;
+    border-radius: 20px;
+    background-color: rgba(8, 125, 6, 1);
+    padding: 20px 21px 12px;
+    border: 1px solid rgba(255, 255, 255, 1);
+  }
+  
+  .era12 {
+    border-radius: 30px;
+    margin-top: 21px;
+    padding: 28px 62px;
+    border: 1px solid rgba(255, 255, 255, 1);
+  }
+  
+  .era13 {
+    gap: 20px;
+    display: flex;
+  }
+  
+  .era14 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 79%;
+    margin-left: 0px;
+  }
+  
+  .era15 {
+    aspect-ratio: 2.86;
+    object-fit: auto;
+    object-position: center;
+    width: 100%;
+    border-radius: 30px;
+    flex-grow: 1;
+  }
+  
+  .era16 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 21%;
+    margin-left: 20px;
+  }
+  
+  .era17 {
+    display: flex;
+    margin-top: 9px;
+    flex-direction: column;
+    font-size: 35px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+  }
+  
+  .era18 {
+    font-family: Inter, sans-serif;
+  }
+  
+  .era19 {
+    margin-top: 24px;
+    font: 40px Inter, sans-serif;
+  }
+  
+  .era20 {
+    font-family: Inter, sans-serif;
+    margin-top: 27px;
+  }
+  
+  .era21 {
+    font-family: Inter, sans-serif;
+    margin-top: 16px;
+  }
+  
+  .era22 {
+    border-radius: 30px;
+    display: flex;
+    width: 408px;
+    max-width: 100%;
+    gap: 12px;
+    font-size: 35px;
+    font-weight: 700;
+    white-space: nowrap;
+    margin: 44px 0 0 12px;
+    border: 1px solid rgba(255, 255, 255, 1);
+  }
+  
+  .era23 {
+    font-family: Inter, sans-serif;
+    border-radius: 30px;
+    color: rgba(255, 246, 246, 1);
+    padding: 17px 28px 9px;
+    border: 1px solid rgba(255, 255, 255, 1);
+  }
+  
+  .era24 {
+    font-family: Inter, sans-serif;
+    color: rgba(255, 255, 255, 1);
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: auto 0;
+  }
+  
+  .era25 {
+    border-radius: 30px;
+    margin-top: 20px;
+    height: 109px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    height: 400px; /* Установите фиксированную высоту */
+    overflow-y: auto; /* Добавьте вертикальную прокрутку, если содержимое превышает высоту */
+    padding: 10px; /* Добавьте отступы, если необходимо */
+    border: 1px solid #ccc; /* Добавьте рамку для визуализации границ */
+    box-sizing: border-box; /* Убедитесь, что отступы и рамка включены в общую ширину и высоту */
+  }
+  
+/* RoomDetail.css */
+
+/* Контейнер для списка игроков */
+.playersInfo {
+    max-height: 400px; /* Максимальная высота контейнера */
+    overflow-y: auto; /* Вертикальная прокрутка */
+    padding: 10px; /* Внутренние отступы */
+    border: 1px solid #ccc; /* Рамка для визуализации границ */
+    border-radius: 8px; /* Скругленные углы */
+    background-color: #f9f9f9; /* Фоновый цвет */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тень для глубины */
+    margin-top: 20px; /* Отступ сверху */
+  }
+  
+  /* Список */
+  .playersInfo ul {
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем отступы */
+    margin: 0; /* Убираем отступы */
+  }
+  
+  /* Элементы списка */
+  .playersInfo li {
+    padding: 10px; /* Внутренние отступы */
+    border-bottom: 1px solid #ddd; /* Нижняя рамка */
+    display: flex; /* Используем flexbox для выравнивания */
+    align-items: center; /* Вертикальное выравнивание */
+    transition: background-color 0.3s; /* Переход для фона */
+  }
+  
+  /* Последний элемент списка без нижней рамки */
+  .playersInfo li:last-child {
+    border-bottom: none; /* Убираем нижнюю рамку */
+  }
+  
+  /* Имя пользователя */
+  .playersInfo li span {
+    margin-left: 10px; /* Отступ слева */
+    font-weight: bold; /* Жирный шрифт */
+    color: #333; /* Цвет текста */
+  }
+  
+  /* Эффект при наведении на элемент списка */
+  .playersInfo li:hover {
+    background-color: #f0f0f0; /* Изменение фона при наведении */
+  }
+  
+  .adminInformation{
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  .registration-open {
+    background-color: green;
+  }
+  
+  .registration-closed {
+    background-color: red;
+  }
+  .captainDelete{
+    padding-left: 70%;
+  }
+  .teamss {
+
+    display: flex;
+    flex-direction: row; /* Элементы будут расположены в строку */
+    align-items: center; /* Вертикальное выравнивание элементов */
+    justify-content: center; /* Горизонтальное выравнивание элементов */
+  }
+  .teamss ul {
+
+    list-style: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем отступы */
+    margin: 0; /* Убираем отступы */
+    display: flex; /* Устанавливаем Flexbox для списка */
+    flex-direction: row; /* Элементы списка в строку */
+  }
+  .teamss button {
+    margin-right: 10px; /* Отступ между элементами списка */
+    border: solid 1px;
+  }
+  .Generate{
+      font-family: Inter, sans-serif;
+      border-radius: 20px;
+      background-color: rgba(224, 165, 11, 1);
+      align-self: end;
+      width: 165px;
+      max-width: 100%;
+      white-space: nowrap;
+      padding: 26px 44px;
+      border: 1px solid rgba(255, 255, 255, 1);
+  }
